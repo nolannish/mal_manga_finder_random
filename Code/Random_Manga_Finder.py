@@ -2,7 +2,6 @@ import requests
 import random
 import json
 
-BASE_URL = 'https://api.jikan.moe/v4/'
 RAND_INT = random.randint(1, 1000)
 response = requests.get(f'https://api.jikan.moe/v4/manga/{RAND_INT}')
 
